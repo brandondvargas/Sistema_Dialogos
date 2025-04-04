@@ -15,7 +15,7 @@ Hay una chica joven y bella frente a ti.
 * [Retirarse] -> END
 
 === motivo ===
-* <i>Estoy intentando ayudar a una madre cuyos hijos han desaparecido, busco cualquier tipo de pista.</i>
+* [<i>Estoy intentando ayudar a una madre cuyos hijos han desaparecido, busco cualquier tipo de pista.</i>]
     -> preocupacion_madre
 
 * <i>Solo estoy dando un paseo. No se como termine aquí.</i>
