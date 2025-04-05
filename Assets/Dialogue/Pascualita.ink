@@ -5,12 +5,12 @@ VAR saber_de_la_boda = false
 VAR hablaron_sobre_habitacion = false
 VAR fin_conversacion = false
 
-Hay una chica joven y bella frente a ti.
+Hay una chica joven y bella frente a ti. #portrait:corredor_full #audio:animal_crossing_mid
 -> inicio
 
 === inicio ===
-* <i>¿Quien eres?</i>
-    Buenas tardes, permítame presentarme, soy la señorita Esparza, es un verdadero placer conocerlo. Que afortunada soy de recibir la visita de un caballero tan distinguido, aunque apreciaría saber los motivos que lo traen a mi humilde alcoba.
+* <i>¿Quien eres?</i> 
+    Buenas tardes, permítame presentarme, soy la señorita Esparza, es un verdadero placer conocerlo. Que afortunada soy de recibir la visita de un caballero tan distinguido, aunque apreciaría saber los motivos que lo traen a mi humilde alcoba. #speaker:Señorita Esparza
     -> motivo
 * [Retirarse] -> END
 
