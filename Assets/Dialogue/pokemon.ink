@@ -1,8 +1,8 @@
 INCLUDE globals.ink
 
 #audio:animal_crossing_low
-{ pokemon_name == "": -> main | -> already_chose }
-
+//{ pokemon_name == "": -> main | -> already_chose }
+-> main
 === main ===
 Which pokemon do you choose?
     + [Charmander]
