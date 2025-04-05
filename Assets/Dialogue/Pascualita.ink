@@ -5,12 +5,15 @@ VAR saber_de_la_boda = false
 VAR hablaron_sobre_habitacion = false
 VAR fin_conversacion = false
 
-Hay una chica joven y bella frente a ti. #portrait:corredor_full #audio:animal_crossing_mid
+Hay una chica joven y bella frente a ti. #portrait:pascualita_neutral #audio:animal_crossing_mid
 -> inicio
 
 === inicio ===
 * [<i>¿Quien eres?</i>] 
-    Buenas tardes, permítame presentarme, soy la señorita Esparza, es un verdadero placer conocerlo. Que afortunada soy de recibir la visita de un caballero tan distinguido, aunque apreciaría saber los motivos que lo traen a mi humilde alcoba. #speaker:Señorita Esparza
+    Buenas tardes, permítame presentarme, soy la señorita Esparza, es un verdadero placer conocerlo. 
+    
+    Que afortunada soy de recibir la visita de un caballero tan distinguido, aunque apreciaría saber los motivos que lo traen a mi humilde alcoba. #speaker:Señorita Esparza
+    
     -> motivo
 * [Retirarse] -> END
 
@@ -22,15 +25,21 @@ Hay una chica joven y bella frente a ti. #portrait:corredor_full #audio:animal_c
     -> gracia
 
 === preocupacion_madre ===
-¡Dios mío...! qué pena tan grande. No me puedo ni imaginar el dolor por el que debe estar pasando la pobre mujer. Pero que calamidad tan terrible. Mis pensamientos y plegarias están con ella. Lamentablemente no tengo nada más que ofrecer en ayuda, lo cual me apena tanto, he estado en mi alcoba toda la mañana, me temo que no se nada al respecto.
+¡Dios mío...! qué pena tan grande. No me puedo ni imaginar el dolor por el que debe estar pasando la pobre mujer. 
+
+Mis pensamientos y plegarias están con ella. Lamentablemente he estado en mi alcoba toda la mañana, me temo que no se nada al respecto.
 
 * [<i>No se preocupe, sus palabras y buena voluntad son suficientes. Es una situación complicada.</i>]
 
-Ni que lo diga, espero que puedan encontrarlos a prontitud. Es tan loable su proceder. Es en estos momentos cuando debemos unirnos como comunidad y extender nuestra mano a quienes sufren.
+Ni que lo diga, espero que puedan encontrarlos a prontitud. Es tan loable su proceder. 
+
+Es en estos momentos cuando debemos unirnos como comunidad y extender nuestra mano a quienes sufren.
 ->main
 
 === gracia ===
-Pero que afable caballero. No hace falta que intente ocultar su interes, no me molesta en lo absoluto que haya tenido la cortesía de venir a verme, lo encuentro encantador de su parte, esta usted invitado a pasar el tiempo que desee, dentro de lo razonable claro esta.
+Pero que afable caballero. No hace falta que intente ocultar su interes, no me molesta en lo absoluto que haya tenido la cortesía de venir a verme, lo encuentro encantador de su parte.
+
+Esta usted invitado a pasar el tiempo que desee, dentro de lo razonable claro esta.
 -> main
 
 === main ===
@@ -59,12 +68,16 @@ Pero que afable caballero. No hace falta que intente ocultar su interes, no me m
 
 === boda ===
 
-Oh que maravilla que pregunte. Estoy preparandome para mi boda, pero ¡Qué dicha! ¿no lo cree? Es el día de mañana, en la Catedral a la 1 de la tarde, sera una ceremonia de lo más exquisito, y espero que podamos contar con su presencia, seria todo un honor para mí. ¿No es maravilloso?
+Oh que maravilla que pregunte. Estoy preparandome para mi boda, pero ¡Qué dicha! ¿no lo cree? 
+
+Es el día de mañana, en la Catedral a la 1 de la tarde, sera una ceremonia de lo más exquisito, y espero que podamos contar con su presencia, seria todo un honor para mí. ¿No es maravilloso?
 ~ saber_de_la_boda = true
 
 + [<i>Muchas felicidades.</i>]
 
-Le agradezco su cortesía caballero. Es un paso trascendental en la vida de toda dama. Más que una celebración, lo que en verdad importa es el compromiso que se asume, la dicha de compartir el porvenir con alguien digno de nuestra estima. Espero que algun día usteded encuentre semejante deleite, si es que no lo ha hecho. ¿O sí?
+Le agradezco su cortesía caballero. Es un paso trascendental en la vida de toda dama. Más que una celebración, lo que en verdad importa es el compromiso que se asume, la dicha de compartir el porvenir con alguien digno de nuestra estima. 
+
+Espero que algun día usteded encuentre semejante deleite, si es que no lo ha hecho. ¿O sí?
 ->casado
 
 === casado ===
@@ -82,7 +95,9 @@ Es una verdadera lástima, mi corazón se encuentra apesadumbrado ante tal notic
 
 === sobre_el_novio_1 ===
 
-Veo que no puede contener su curiosidad. Es usted tan abierto y sin nada que esconder. Solo he de decir que es un hombre de honor, cuya integridad y nobleza de espiritu han conquistado mi aprecio. Confío en que sabremos construir juntos un hogar lleno de armonía y respeto, si es que le satisface mi respuesta.
+Veo que no puede contener su curiosidad. Es usted tan abierto y sin nada que esconder. Solo he de decir que es un hombre de honor, cuya integridad y nobleza de espiritu han conquistado mi aprecio. 
+
+Confío en que sabremos construir juntos un hogar lleno de armonía y respeto, si es que le satisface mi respuesta.
 
 + [<i>Suena como toda una personalidad.</i>]
 -> sobre_el_novio_2
@@ -94,7 +109,9 @@ Veo que no puede contener su curiosidad. Es usted tan abierto y sin nada que esc
 
 === sobre_el_novio_2 ===
 
-Lo es, como me gustaría que lo conociera, afortunadamente podra hacerlo el día de mañana en la boda. Sera tan esplendido, todo tan lleno de beldad y dicha, cada detalle puesto con esmero, cada invitado con su elegancia sutil... Perdoneme, perdi la compostura, y le ruego disculpe mi indiscreción, no es propio de una dama.
+Lo es, como me gustaría que lo conociera, afortunadamente podra hacerlo el día de mañana en la boda. Sera tan esplendido, todo tan lleno de beldad y dicha, cada detalle puesto con esmero, cada invitado con su elegancia sutil... 
+
+Perdoneme, perdi la compostura, y le ruego disculpe mi indiscreción, no es propio de una dama.
 
 + [<i>No hay nada que perdonar señorita Esparza.</i>]
 
@@ -103,21 +120,29 @@ Es usted tan modesto ante semejante falta. Siendo sincera preferiría que todos 
 
 + [<i>¿Por que lo dices?</i>]
 
-Oh, ¿no se ha dado cuenta?, me he sobrepasado en mis palabras y he caido en la presunción y la vanidad, por favor le ruego las ignore y olvide que alguna vez las dije, cuidare mejor mis modales de ahora en adelante.
+Oh, ¿no se ha dado cuenta?, me he sobrepasado en mis palabras y he caido en la presunción y la vanidad.
+
+Por favor le ruego las ignore y olvide que alguna vez las dije, cuidare mejor mis modales de ahora en adelante.
 -> main
 
 === sobre_ella_1 ===
 
 * [<i>No soy tan maravilloso. Simplemente debes relajarte de vez en cuando.</i>]
 
-Eso desearía. Mi madre dice que de hecho lo hago demasiado. Que es impropio de una dama actuar de forma tan libre, tan despreocupada, pero yo no puedo evitar sentirme así la mayor parte del tiempo, no cuando todo es tan hermoso y atractivo, ¿no siente usted una necesidad de salir ahi fuera y ver todo con sus propios ojos? Tocarlo con sus manos y sus pies, sentir el viento, el pasto, el sol del verano.
+Eso desearía. Mi madre dice que de hecho lo hago demasiado. Que es impropio de una dama actuar de forma tan libre, tan despreocupada, pero yo no puedo evitar sentirme así la mayor parte del tiempo, no cuando todo es tan hermoso y atractivo.
+
+¿No siente usted una necesidad de salir ahi fuera y ver todo con sus propios ojos? Tocarlo con sus manos y sus pies, sentir el viento, el pasto, el sol del verano.
 -> sobre_ella_2
 
 === sobre_ella_2 ===
 
 * [<i>Por supuesto, el mundo es suyo para tomarlo.</i>]
 
-Digaselo a mi madre, ella esta convencida de que puedo llegar a pecar de ingenua en ocasiones, ¿pero como puede decir eso? Yo solo quiero conocer un poco más del mundo, de sus personas. Conocer más hombres como usted, o... como mi prometido. Usted ha sido tan bueno y diferente conmigo, ojala todos los caballeros fueran como usted.
+Digaselo a mi madre, ella esta convencida de que puedo llegar a pecar de ingenua en ocasiones, ¿pero como puede decir eso? 
+
+Yo solo quiero conocer un poco más del mundo, de sus personas. Conocer más hombres como usted, o... como mi prometido. 
+
+Usted ha sido tan bueno y diferente conmigo, ojala todos los caballeros fueran como usted.
 -> sobre_ella_3
 
 * [<i>¿No sales mucho o sí?</i>]
@@ -130,13 +155,15 @@ Digaselo a mi madre, ella esta convencida de que puedo llegar a pecar de ingenua
 * [<i>¿A que se refiere? ¿Acaso son malos?</i>]
 
 Oh no para nada, la mayoría de ellos son muy dulces de hecho, el problema es que... talvez no lo crea pero los hombres tienden a enamorarse desesperadamente de mi. 
+
 -> sobre_ella_4
 
 === sobre_ella_4 ===
 
 * [<i>Si lo creo.</i>]
 
-Por supuesto yo no tengo ningun problema con ello, en principio, pero hablar con ellos puede ser dificil, empiezan a hacer cosas extrañas, la mayoría de ellos me propone matrimonio en cuanto me conoce ¿Puede creerlo? 
+Por supuesto yo no tengo ningun problema con ello, en principio, pero hablar con ellos puede ser dificil, empiezan a hacer cosas extrañas, la mayoría de ellos me propone matrimonio en cuanto me conoce ¿Puede creerlo?
+
 -> sobre_ella_5
 
 === sobre_ella_5 ===
@@ -155,7 +182,11 @@ Por supuesto yo no tengo ningun problema con ello, en principio, pero hablar con
 
 * [<i>¿Enserio?¿Porque?</i>]
 
-Bueno los hombres casados nunca me piden matrimonio, pues ya estan casados, ¿no es esplendido? Así las cosas no pueden tomar un rumbo impredecible, ademas ahora me ahorraría la pena de tener que explicarles que yo ya estoy casada, aunque no se como se lo vayan a tomar, pues apenas mañana empezare a estarlo. De cualquier manera, es maravilloso que usted no me haya propuesto matrimonio.
+Bueno los hombres casados nunca me piden matrimonio, pues ya estan casados, ¿no es esplendido? 
+
+Así las cosas no pueden tomar un rumbo impredecible, ademas ahora me ahorraría la pena de tener que explicarles que yo ya estoy casada, aunque no se como se lo vayan a tomar, pues apenas mañana empezare a estarlo. 
+
+De cualquier manera, es maravilloso que usted no me haya propuesto matrimonio.
 
 -> sobre_ella_7 
 
@@ -173,7 +204,9 @@ Como le decia, los hombres parecen enloquecer a mi alrededor, tambien ha dado pi
 
 * [<i>¿Accidentes? ¿A que se refiere?</i>]
 
- Oh nada grave, nunca ha pasado de un pequeño susto para el desdichado caballero, vera, en cuanto mi madre los ve no puede evitar ponerse un poco, violenta. Una vez le arrojo una maceta a uno de ellos. El infortunado quedo todo lleno de tierra, pero se veía tan contento.
+ Oh nada grave, nunca ha pasado de un pequeño susto para el desdichado caballero, vera, en cuanto mi madre los ve no puede evitar ponerse un poco, violenta.
+ 
+ Una vez le arrojo una maceta a uno de ellos. El infortunado quedo todo lleno de tierra, pero se veía tan contento.
  
  -> sobre_ella_9
 
@@ -189,7 +222,9 @@ Vaya que lo es. ¡Por todos los cielos! Por favor le suplico ignore lo que acabo
 
 * [<i>No se preocupe.</i>]
 
-Olvido con quien estoy hablando, se que podemos hablar con libertad. Es solo que mi madre, a quien amo y respeto con todo mi corazón, en ocasiones puede ser un poco exhaustiva, a veces pienso que si por ella fuera, yo debería permanecer aquí por toda la eternidad. Fue un milagro del cielo que aprobara este matrimonio, creo que es lo unico que con toda certeza le permitiría dejarme ir. No puedo esperar al día de mañana.
+Olvido con quien estoy hablando, se que podemos hablar con libertad. Es solo que mi madre, a quien amo y respeto con todo mi corazón, en ocasiones puede ser un poco exhaustiva, a veces pienso que si por ella fuera, yo debería permanecer aquí por toda la eternidad. 
+
+Fue un milagro del cielo que aprobara este matrimonio, creo que es lo unico que con toda certeza le permitiría dejarme ir. No puedo esperar al día de mañana.
 
 -> sobre_ella_11
 
